@@ -1,19 +1,28 @@
 import {
-    centerArts,
-    declareModule,
-    patternToRegExp,
-    string_mime_type_with_wildcard,
-    TextArt,
+  centerArts,
+  declareModule,
+  patternToRegExp,
+  string_mime_type_with_wildcard,
+  TextArt
 } from '@collboard/modules-sdk';
 import { Vector } from 'xyzt';
 import textFileIcon from '../assets/text-file-icon.svg';
-import { contributors, description, license, name, repository, version } from '../package.json';
+import { contributors, description, license, repository, version } from '../package.json';
 
-const mimeTypes: string_mime_type_with_wildcard[] = ['text/plain'];
+
+/**
+ * TODO: !!! Implement:
+ * - GLB/GLTF 1.0 + 2.0
+ * - OBJ application/object
+ * - STL application/sla
+ * - 3MF application/vnd.ms-package.3dmanufacturing-3dmodel+xml
+ */
+
+const mimeTypes: string_mime_type_with_wildcard[] = ['model/gltf-binary','model/gltf+json'];
 
 declareModule({
     manifest: {
-        name,
+        name: '@hejny/gltf-support',
         version,
         description,
         contributors,
