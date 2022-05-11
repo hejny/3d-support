@@ -1,6 +1,6 @@
 {
     "name": "3d-support",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk.",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
