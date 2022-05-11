@@ -1,7 +1,7 @@
 {
   "name": "3d-support",
   "version": "0.1.1",
-  "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk.",
+  "description": "Support of 3D files for Collboard.com created via @collboard/modules-sdk.",
   "license": "SEE LICENSE IN LICENSE",
   "contributors": [
     "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
