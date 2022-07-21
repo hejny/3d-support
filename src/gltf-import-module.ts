@@ -1,14 +1,12 @@
 import {
-  centerArts,
-  declareModule,
-  patternToRegExp,
-  string_mime_type_with_wildcard,
-  TextArt
+    centerArts,
+    declareModule,
+    patternToRegExp,
+    string_mime_type_with_wildcard,
+    TextArt,
 } from '@collboard/modules-sdk';
-import { Vector } from 'xyzt';
 import textFileIcon from '../assets/text-file-icon.svg';
 import { contributors, description, license, repository, version } from '../package.json';
-
 
 /**
  * TODO: !!! Implement:
@@ -18,7 +16,7 @@ import { contributors, description, license, repository, version } from '../pack
  * - 3MF application/vnd.ms-package.3dmanufacturing-3dmodel+xml
  */
 
-const mimeTypes: string_mime_type_with_wildcard[] = ['model/gltf-binary','model/gltf+json'];
+const mimeTypes: string_mime_type_with_wildcard[] = ['model/gltf-binary', 'model/gltf+json'];
 
 declareModule({
     manifest: {
@@ -53,12 +51,11 @@ declareModule({
                 const textArt = new TextArt(
                     await file.text(),
                     '#009edd',
-                    21 / appState.transform.scale.x,
+                    21 / appState.transform.value.scale.x,
                     false,
                     false,
                     false,
                     'none',
-                    Vector.zero(),
                 );
 
                 centerArts({ arts: [textArt], boardPosition });
