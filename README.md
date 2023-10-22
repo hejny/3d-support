@@ -5,10 +5,10 @@
 
 
 [![License of 🧱 3D support for Collboard](https://img.shields.io/github/license/hejny/3d-support.svg?style=flat)](https://github.com/hejny/3d-support/blob/main/LICENSE)
+[![lint](https://github.com/hejny/3d-support/actions/workflows/lint.yml/badge.svg)](https://github.com/hejny/3d-support/actions/workflows/lint.yml)
 [![test](https://github.com/hejny/3d-support/actions/workflows/test.yml/badge.svg)](https://github.com/hejny/3d-support/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/3d-support/badge.svg)](https://snyk.io/test/github/hejny/3d-support)
 [![Issues](https://img.shields.io/github/issues/hejny/3d-support.svg?style=flat)](https://github.com/hejny/3d-support/issues)
-<!--[![lint](https://github.com/hejny/3d-support/actions/workflows/lint.yml/badge.svg)](https://github.com/hejny/3d-support/actions/workflows/lint.yml)-->
 
 <!--/Badges-->
 
