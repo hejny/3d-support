@@ -2,7 +2,7 @@
     "name": "3d-support",
     "version": "0.1.228",
     "description": "Support of 3D files for Collboard.com",
-    "license": "SEE LICENSE IN LICENSE",
+    "license": "Apache-2.0",
     "contributors": [
         "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
     ],
